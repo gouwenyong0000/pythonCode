@@ -17,5 +17,5 @@ d = {'name':'孙悟空','age':18,'gender':'男'}
 # 它会返回一个序列，序列中包含有双值子序列
 # 双值分别是，字典中的key和value
 # print(d.items())
-for k,v in d.items() :
+for k,v in d.items() : # k,v 是元组的简写，对dict返回值解包
     print(k , '=' , v)
